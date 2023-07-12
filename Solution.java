@@ -87,11 +87,10 @@ class Result {
             
         }
         temp = llist;
-        int i = size - 1;
          while (temp != null) {
-            temp.data = arr[i];
+            temp.data = arr[--size];
             temp = temp.next;
-            i--;
+            
         }
         return llist;
 
