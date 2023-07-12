@@ -72,6 +72,7 @@ class Result {
      *     int data;
      *     SinglyLinkedListNode next;
      * }
+     * hackerrank
      *
      */
 
